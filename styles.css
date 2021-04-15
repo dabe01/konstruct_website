@@ -1,0 +1,1260 @@
+
+            /*logo*/
+            .white_logo{
+                position: absolute;
+                width: 101.62px;
+                height: 23px;
+                left: 669px;
+                top: 40px;
+            }
+            .black_logo{
+                position: absolute;
+                width: 79.53px;
+                height: 18px;
+                left: 251px;
+                top: 24px;
+            }
+            .main_pic{
+                background-image: url(bg.png);
+                background-color: #c7b39b;
+                position: absolute;
+                left: 0px;
+                top: -1px;
+                width: 1349px;
+                height: 769px;
+            }
+            a { 
+                text-decoration: none; 
+                color: inherit;
+               } 
+            h1{
+                position: absolute;
+                width: 576px;
+                height: 60px;
+                left: 435px;
+                top: 380px;
+                font-family: sans-serif;
+                font-size: 33px;
+                line-height: 70px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 5.70937px;
+                color: #FFFFFF;
+            }
+            .small_center{
+                position: absolute;
+                width: 386px;
+                height: 22px;
+                left: 527.5px;
+                top: 439px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .scroll_down{
+                position: absolute;
+                width: 117px;
+                height: 15px;
+                left: 661.5px;
+                top: 682px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 11px;
+                line-height: 15px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 3.7px;
+                color: #FFFFFF;
+            }
+            .navbar{
+                position: absolute;
+                width: 1349px;
+                height: 65px;
+                left: 0px;
+                top: 769px;
+                background: #FFFFFF;
+                border: 1px solid #E6E6E6;
+                box-sizing: border-box;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li{
+                display: inline;
+            }
+            .home_butt{
+                position: absolute;
+                width: 40px;
+                height: 16px;
+                left: 781.5px;
+                top: 25px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 1.09091px;
+                color: #48555B;
+            }
+            .about_butt{
+                position: absolute;
+                width: 47px;
+                height: 16px;
+                left: 869.5px;
+                top: 25px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 1.09091px;
+                color: #00A4E5;
+            }
+            .serv_butt{
+                position: absolute;
+                width: 61px;
+                height: 16px;
+                left: 959px;
+                top: 25px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 1.09091px;
+                color: #48555B;
+            }
+            .work_butt{
+                position: absolute;
+                width: 40px;
+                height: 16px;
+                left: 1059px;
+                top: 25px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 1.09091px;
+                color: #48555B;
+            }
+            .contact_butt{
+                position: absolute;
+                width: 63px;
+                height: 16px;
+                left: 1129px;
+                top: 25px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 1.09091px;
+                color: #48555B;
+            }
+            .block_about{
+                position: absolute;
+                width: 941px;
+                height: 344px;
+                left: 249px;
+                top: 891px;
+            }
+            .hr1{
+                position: absolute;
+                width: 50px;
+                height: 0px;
+                left: 447px;
+                top: 34px;
+                border: 1px solid #00A4E5;
+            }
+            .our_story_text{
+                position: absolute;
+                width: 121px;
+                height: 25px;
+                left: 411px;
+                top: -1px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 25px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 2.30625px;
+                color: #48555B;
+            }
+            .big_about{
+                position: absolute;
+                width: 405.08px;
+                height: 81px;
+                left: 0px;
+                top: 116px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 27px;
+                display: flex;
+                align-items: flex-end;
+                letter-spacing: 0.1875px;
+                color: #48555B;
+            }
+            .small_about{
+                position: absolute;
+                width: 405.08px;
+                height: 115px;
+                left: 0px;
+                top: 227px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 23px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.1875px;
+                color: #48555B;
+            }
+            .about_img_1{
+                position: absolute;
+                width: 140px;
+                height: 224px;
+                left: 482px;
+                top: 120px;
+            }
+            .about_img_2{
+                position: absolute;
+                width: 140px;
+                height: 224px;
+                left: 642px;
+                top: 120px;
+            }
+            .about_img_3{
+                position: absolute;
+                width: 140px;
+                height: 224px;
+                left: 801px;
+                top: 120px;
+            }
+            .block_capab{
+                position: absolute;
+                width: 940px;
+                height: 446px;
+                left: 250px;
+                top: 1350px;
+            }
+            .hr2{
+                position: absolute;
+                width: 50px;
+                height: 0px;
+                left: 0px;
+                top: 34px;
+                border: 1px solid #00A4E5;
+            }
+            .our_capab_text{
+                position: absolute;
+                width: 198px;
+                height: 25px;
+                left: 0px;
+                top: -1px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 25px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: 2.30625px;
+                color: #48555B;
+            }
+            .capab_small_text{
+                position: absolute;
+                width: 405.4px;
+                height: 38px;
+                left: 353px;
+                top: 0px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.2px;
+                color: #48555B;
+            }
+            .capab_butt{
+                position: absolute;
+                width: 150px;
+                height: 40px;
+                left: 790px;
+                top: 10px;
+                background: #00A4E5;
+                position: absolute;
+                padding: 11px 26px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 18px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 0.5px;
+                color: #FFFFFF;
+                border: 0;
+            }
+            .service1{
+                position: absolute;
+                width: 295px;
+                height: 330px;
+                left: 0px;
+                top: 117px;
+                background: #FFFFFF;
+                border: 1px solid #E6E6E6;
+                box-sizing: border-box;
+            }
+            .service2{
+                position: absolute;
+                width: 295px;
+                height: 330px;
+                left: 323px;
+                top: 117px;
+                background: #FFFFFF;
+                border: 1px solid #E6E6E6;
+                box-sizing: border-box;
+            }
+            .service3{
+                position: absolute;
+                width: 295px;
+                height: 330px;
+                left: 645px;
+                top: 117px;
+                background: #FFFFFF;
+                border: 1px solid #E6E6E6;
+                box-sizing: border-box;
+            }
+            .serv_img{
+                position: absolute;
+                width: 65.62px;
+                height: 75px;
+                left: 23px;
+                top: 38px;
+            }
+            .serv_big_text{
+                position: absolute;
+                width: 250px;
+                height: 48px;
+                left: 23px;
+                top: 138px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.426667px;
+                color: #48555B;
+            }
+            .serv_small_text{
+                position: absolute;
+                width: 250px;
+                height: 92px;
+                left: 23px;
+                top: 199px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 23px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.1875px;
+                color: #48555B;
+            }
+            .block_touch{
+                background-image: url(s3.jpg);
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 1349px;
+                height: 499px;
+                top: 1914px;
+                left: 0px;
+            }
+            .touch_text{
+                position: absolute;
+                width: 350px;
+                height: 72px;
+                left: 545px;
+                top: 120px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 36px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: 0.15px;
+                color: #48555B;
+            }
+            .touch_butt{
+                position: absolute;
+                width: 150px;
+                height: 40px;
+                left: 641px;
+                top: 241px;
+                background: #00A4E5;
+                position: absolute;
+                padding: 10px 27px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 18px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 0.5px;
+                color: #FFFFFF;
+                border: 0;
+            }
+            .block_letter{
+                background: #171819;
+                position: absolute;
+                width: 1349px;
+                height: 99.76px;
+                top: 2394px;
+                left: 0px;
+            }
+            .letter_content{
+                position: absolute;
+                width: 685px;
+                height: 40px;
+                left: 378px;
+                top: 20px;
+            }
+            .letter_text{
+                position: absolute;
+                width: 216px;
+                height: 30px;
+                top: -5px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 30px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 0.5px;
+                color: #FFFFFF;
+            }
+            .letter_mail{
+                position: absolute;
+                width: 250px;
+                height: 40px;
+                left: 260px;
+                top: 10px;
+                background: #FFFFFF;
+                border: 1px solid #979797;
+                box-sizing: border-box;
+                position: absolute;
+                padding: 10px 16px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+                display: flex;
+                align-items: flex-end;
+                letter-spacing: 0.07px;
+                color: #48555B;
+            }
+            .letter_butt{
+                position: absolute;
+                width: 150px;
+                height: 40px;
+                left: 510px;
+                top: 10px;
+                background: #00A4E5;
+                position: absolute;
+                padding: 11px 45px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 18px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 0.5px;
+                color: #FFFFFF;
+                border: 0;
+            }
+            footer{ 
+                position: absolute;
+                width: 1349px;
+                height: 299px;
+                left: 0px;
+                top: 2494px;
+            }
+            .footer_inform{
+                position: absolute;
+                width: 1349px;
+                height: 240px;
+                left: 0px;
+                top: 0px;
+                background: #141A20;
+            }
+            .footer_company{
+                position: absolute;
+                width: 250px;
+                height: 148px;
+                left: 249px;
+                top: 42px;
+            }
+            .footer_company_main_text{
+                position: absolute;
+                width: 78px;
+                height: 15px;
+                left: 0px;
+                top: 0px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 15px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 0.846154px;
+                color: #FFFFFF;
+            }
+            .footer_company_text{
+                position: absolute;
+                width: 250px;
+                height: 76px;
+                left: 0px;
+                top: 72px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.85px;
+                color: #FFFFFF;
+            }
+            .footer_links{
+                position: absolute;
+                width: 262px;
+                height: 150px;
+                left: 570px;
+                top: 42px;
+            }
+            .footer_ul1{
+                position: absolute;
+                width: 76px;
+                height: 125px;
+                left: 0px;
+                top: 32px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 22px;
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                letter-spacing: 0.846154px;
+                color: #FFFFFF;
+            }
+            .footer_ul2{
+                position: absolute;
+                width: 52px;
+                height: 75px;
+                left: 110px;
+                top: 32px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 22px;
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                letter-spacing: 0.846154px;
+                color: #FFFFFF;
+            }
+            .footer_ul3{
+                position: absolute;
+                width: 62px;
+                height: 15px;
+                left: 200px;
+                top: 32px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 22px;
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                letter-spacing: 0.846154px;
+                color: #FFFFFF;
+            }
+            .footer_contact{
+                position: absolute;
+                width: 141px;
+                height: 158px;
+                left: 890px;
+                top: 42px;
+            }
+            .footer_contact_text{
+                position: absolute;
+                width: 141px;
+                height: 128px;
+                left: 0px;
+                top: 30px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.846154px;
+                color: #FFFFFF;
+            }
+            .footer_social{
+                position: absolute;
+                width: 87px;
+                height: 13px;
+                left: 1077px;
+                top: 72px;
+            }
+            .social1{
+                position: absolute;
+                width: 12.04px;
+                height: 12.04px;
+                left: 0.48px;
+                top: 0.48px;
+                background: #FFFFFF;
+            }
+            .social2{
+                position: absolute;
+                width: 12.04px;
+                height: 12.04px;
+                left: 37.47px;
+                top: 0.76px;
+                background: #FFFFFF;
+            }
+            .social3{
+                position: absolute;
+                width: 12.04px;
+                height: 12.04px;
+                left: 74.18px;
+                top: 0.48px;
+                background: #FFFFFF;
+            }
+            .footer_end{
+                position: absolute;
+                width: 1349px;
+                height: 60px;
+                left: 0px;
+                top: 239px;
+                background: #171819;
+            }
+            .footer_end_text{
+                position: absolute;
+                width: 308px;
+                height: 15px;
+                left: 571px;
+                top: 10px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 11px;
+                line-height: 15px;
+                display: flex;
+                align-items: flex-end;
+                letter-spacing: 0.846154px;
+                color: #FFFFFF;
+            }
+
+
+
+
+
+            @media screen and (max-width: 800px){
+                .white_logo{
+                    left: 300px;
+                }
+                .black_logo{
+                    left: 40px;
+                    top: 24px;
+                }
+                .main_pic{
+                    width: 800px;
+                    height: 769px;
+                }
+                h1{
+                    width: 450px;
+                    height: 10px;
+                    left: 150px;
+                    top: 380px;
+                    font-size: 27px;
+                    letter-spacing: 2.70937px;
+                }
+                .small_center{
+                    width: 400px;
+                    left: 190.5px;
+                    top: 400px;
+                }
+                .scroll_down{
+                    left: 300px;
+                }
+                .navbar{
+                    width: 800px;
+                }
+                .home_butt{
+                    left: 353.5px;
+                }
+                .about_butt{
+                    left: 419.5px;
+                }
+                .serv_butt{
+                    left: 490px;
+                }
+                .work_butt{
+                    left: 585px;
+                }
+                .contact_butt{
+                    left: 655px;
+                }
+                .block_about{
+                    width: 700px;
+                    height: 450px;
+                    left: 100px;
+                }
+                .hr1{
+                    left: 265px;
+                }
+                .our_story_text{
+                    left: 235px;
+                }
+                .big_about{
+                    width: 405.08px;
+                    height: 81px;
+                    left: 100px;
+                }
+                .small_about{
+                    width: 405.08px;
+                    height: 115px;
+                    left: 100px;
+                    top: 227px;
+                }
+                .about_img_1{
+                    left: 80px;
+                    top: 400px;
+                }
+                .about_img_2{
+                    left: 232px;
+                    top: 400px;
+                }
+                .about_img_3{
+                    left: 381px;
+                    top: 400px;
+                }
+                .block_capab{
+                    width: 780px;
+                    height: 446px;
+                    left: 20px;
+                    top: 1550px;
+                }
+                .capab_small_text{
+                    width: 335.4px;
+                    height: 38px;
+                    left: 200px;
+                    top: 0px;
+                }
+                .capab_butt{
+                    left: 560px;
+                    top: 15px;
+                }
+                .service1{
+                    width: 245px;
+                    height: 330px;
+                    top: 150px;
+                    left: -5px;
+                }
+                .service2{
+                    width: 245px;
+                    height: 330px;
+                    left: 245px;
+                    top: 150px;
+                }
+                .service3{
+                    width: 245px;
+                    height: 330px;
+                    left: 497px;
+                    top: 150px;
+                }
+                .serv_big_text{
+                    width: 230px;
+                    left: 15px;
+                    line-height: 21px;
+                }
+                .serv_small_text{
+                    width: 230px;
+                    left: 15px;
+                    line-height: 19px;
+                }
+                .block_touch{
+                    width: 800px;
+                    top: 2014px;
+                }
+                .touch_text{
+                    left: 220px;
+                }
+                .touch_butt{
+                    left: 325px;
+                }
+                .block_letter{
+                    width: 800px;
+                    height: 69.76px;
+                    top: 2494px;
+                }
+                .letter_content{
+                    width: 575px;
+                    left: 25px;
+                    top: 0px;
+                }
+                .letter_text{
+                    top: -2px;
+                    font-size: 21px;
+                    letter-spacing: 0.5px;
+                }
+                .letter_mail{
+                    width: 200px;
+                    left: 370px;
+                    top: 15px;
+                }
+                .letter_butt{
+                    width: 140px;
+                    left: 570px;
+                    top: 15px;
+                    padding: 11px 40px;
+                }
+                footer{ 
+                    width: 800px;
+                    height: 400px;
+                    top: 2564px;
+                }
+                .footer_inform{
+                    width: 800px;
+                    height: 400px;
+                }
+                .footer_company{
+                    left: 30px;
+                    top: 10px;
+                }
+                .footer_links{
+                    left: 290px;
+                    top: 10px;
+                }
+                .footer_contact{
+                    left: 30px;
+                    top: 200px;
+                }
+                .footer_social{
+                    left: 330px;
+                    top: 230px;
+                }
+                .footer_end{
+                    width: 800px;
+                    height: 60px;
+                    top: 400px;
+                }
+                .footer_end_text{
+                    left: 221px;
+                    top: 10px;
+                }
+            }
+
+
+@media screen and (max-width: 600px){
+    .white_logo{
+        left: 230px;
+    }
+    .main_pic{
+        width: 600px;
+        height: 769px;
+    }
+    h1{
+        width: 450px;
+        height: 10px;
+        left: 80px;
+        top: 380px;
+        font-size: 27px;
+        letter-spacing: 2.70937px;
+    }
+    .small_center{
+        width: 400px;
+        left: 120.5px;
+        top: 400px;
+    }
+    .scroll_down{
+        left: 235.5px;
+    }
+    .navbar{
+        width: 600px;
+    }
+    .home_butt{
+        left: 183.5px;
+    }
+    .about_butt{
+        left: 249.5px;
+    }
+    .serv_butt{
+        left: 320px;
+    }
+    .work_butt{
+        left: 415px;
+    }
+    .contact_butt{
+        left: 485px;
+    }
+    .block_about{
+        width: 590px;
+        height: 450px;
+        left: 10px;
+    }
+    .block_capab{
+        width: 580px;
+        height: 446px;
+        left: 20px;
+        top: 1550px;
+    }
+    .capab_small_text{
+        left: 10px;
+        top: 60px;
+    }
+    .capab_butt{
+        left: 380px;
+        top: 70px;
+    }
+    .service1{
+        width: 255px;
+        height: 330px;
+        top: 150px;
+    }
+    .service2{
+        width: 255px;
+        height: 330px;
+        left: 275px;
+        top: 150px;
+    }
+    .service3{
+        width: 255px;
+        height: 330px;
+        left: 150px;
+        top: 500px;
+    }
+    .block_touch{
+        width: 600px;
+        top: 2414px;
+    }
+    .touch_text{
+        left: 120px;
+    }
+    .touch_butt{
+        left: 225px;
+    }
+    .block_letter{
+        width: 600px;
+        height: 69.76px;
+        top: 2894px;
+    }
+    .letter_mail{
+        left: 200px;
+    }
+    .letter_butt{
+        left: 400px;
+    }
+    footer{ 
+        width: 600px;
+        height: 499px;
+        top: 2964px;
+    }
+    .footer_inform{
+        width: 600px;
+        height: 440px;
+    }
+    .footer_company{
+        left: 30px;
+    }
+    .footer_links{
+        left: 290px;
+    }
+    .footer_contact{
+        left: 30px;
+        top: 242px;
+    }
+    .footer_social{
+        left: 330px;
+        top: 272px;
+    }
+    .footer_end{
+        width: 600px;
+    }
+    .footer_end_text{
+        left: 171px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px){
+    .white_logo{
+        left: 110px;
+    }
+    .black_logo{
+        width: 0px;
+    }
+    .main_pic{
+        width: 320px;
+        height: 769px;
+    }
+    h1{
+        width: 200px;
+        left: 70px;
+        font-size: 20px;
+        letter-spacing: 1.70937px;
+        line-height: 40px;
+    }
+    .small_center{
+        width: 200px;
+        left: 70.5px;
+        top: 420px;
+        font-size: 14px;
+    }
+    .scroll_down{
+        left: 115.5px;
+    }
+    .navbar{
+        width: 320px;
+    }
+    .home_butt{
+        left: 10px;
+    }
+    .about_butt{
+        left: 60px;
+    }
+    .serv_butt{
+        left: 117px;
+    }
+    .work_butt{
+        left: 194px;
+    }
+    .contact_butt{
+        left: 245px;
+    }
+    .block_about{
+        width: 320px;
+        height: 450px;
+        left: 10px;
+    }
+    .hr1{
+        left: 130px;
+    }
+    .our_story_text{
+        left: 100px;
+    }
+    .big_about{
+        width: 305.08px;
+        left: 10px;
+    }
+    .small_about{
+        width: 305.08px;
+        left: 10px;
+    }
+    .about_img_1{
+        width: 98px;
+        height: 156.5px;
+        left: 0px;
+    }
+    .about_img_2{
+        width: 98px;
+        height: 156.5px;
+        left: 104px;
+    }
+    .about_img_3{
+        width: 98px;
+        height: 156.5px;
+        left: 209px;
+    }
+    .block_capab{
+        width: 940px;
+        height: 446px;
+        left: 10px;
+        top: 1475px;
+    }
+    .capab_small_text{
+        width: 168px;
+        left: 0px;
+        top: 90px;
+    }
+    .capab_butt{
+        left: 170px;
+        top: 90px;
+        width: 130px;
+        height: 55px;
+    }
+    .service1{
+        width: 300px;
+        height: 330px;
+        top: 185px;
+    }
+    .service2{
+        width: 300px;
+        height: 330px;
+        left: 0px;
+        top: 535px;
+    }
+    .service3{
+        width: 300px;
+        height: 330px;
+        left: 0px;
+        top: 885px;
+    }
+    .serv_big_text{
+        width: 250px;
+        left: 15px;
+        line-height: 23px;
+    }
+    .serv_small_text{
+        width: 250px;
+        left: 15px;
+        line-height: 21px;
+    }
+    .block_touch{
+        width: 320px;
+        top: 2744px;
+    }
+    .touch_text{
+        width: 310px;
+        left: 5px;
+        font-size: 27px;
+        line-height: 25px;
+    }
+    .touch_butt{
+        left: 85px;
+        width: 135px;
+        height: 38px;
+        font-size: 11px;
+        padding: 10px 22px;
+    }
+    .block_letter{
+        width: 320px;
+        height: 159.76px;
+        top: 3224px;
+    }
+    .letter_content{
+        width: 550px;
+        left: 10px;
+        top: 0px;
+    }
+    .letter_text{
+        top: -5px;
+        left: 60px;
+        font-size: 21px;
+        letter-spacing: 0.5px;
+    }
+    .letter_mail{
+        width: 250px;
+        left: 25px;
+        top: 60px;
+    }
+    .letter_butt{
+        width: 250px;
+        left: 25px;
+        top: 100px;
+        padding: 11px 40px;
+        padding: 13px 95px;
+    }
+    footer{ 
+        width: 320px;
+        height: 520px;
+        top: 3384px;
+    }
+    .footer_inform{
+        width: 320px;
+        height: 480px;
+    }
+    .footer_company{
+        top: 10px;
+        left: 20px;
+    }
+    .footer_company_text{
+        width: 300px;
+        left: 0px;
+        top: 25px;
+    }
+    .footer_links{
+        left: 20px;
+        top: 130px;
+    }
+    .footer_contact{
+        left: 20px;
+        top: 310px;
+    }
+    .footer_social{
+        left: 190px;
+        top: 320px;
+    }
+    .footer_end{
+        width: 320px;
+        height: 60px;
+        top: 479px;
+    }
+    .footer_end_text{
+        left: 20px;
+    }
+}
