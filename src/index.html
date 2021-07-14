@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KONSTRUCT</title>
+        <link rel="stylesheet" type="text/css" href="styles\styles.css">
+        <script>
+            const mediaQuery = window.matchMedia('(max-width: 600px)');
+            const mediaQuery2 = window.matchMedia('(max-width: 320px)');
+            function viewServs (){
+                document.getElementById("servs4").style.display = "block";
+                document.getElementById("servs5").style.display = "block";
+                document.getElementById("servs6").style.display = "block";
+                if (mediaQuery2.matches){
+                    document.getElementsByClassName("block-capab")[0].style.height = "1500px";
+                } else if (mediaQuery.matches){
+                    document.getElementsByClassName("block-capab")[0].style.height = "1200px";
+                } else {
+                    document.getElementsByClassName("block-capab")[0].style.height = "750px";
+                }
+            }
+
+
+            var isScrolling = false;
+ 
+            window.addEventListener("scroll", throttleScroll, false);
+ 
+            function throttleScroll(e) {
+                if (isScrolling == false) {
+                    window.requestAnimationFrame(function() {
+                        scrolling(e);
+                        isScrolling = false;
+                    });
+                }
+                isScrolling = true;
+            }
+
+            document.addEventListener("DOMContentLoaded", scrolling, false); 
+
+            var servs1 = document.querySelector("#servs1");
+            var servs2 = document.querySelector("#servs2");
+            var servs3 = document.querySelector("#servs3");
+
+            function dealWithScrolling(e) {
+                // do epic stuff    
+                if (isPartiallyVisible(servs1)) {
+                    servs1.classList.add("active");
+                }
+
+                if (isPartiallyVisible(servs2)) {
+                    servs2.classList.add("active");
+                }
+
+                if (isPartiallyVisible(servs3)) {
+                    servs3.classList.add("active");
+                }
+            }
+
+            function isPartiallyVisible(el) {
+                var elementBoundary = el.getBoundingClientRect();
+ 
+                var top = elementBoundary.top;
+                var bottom = elementBoundary.bottom;
+                var height = elementBoundary.height;
+ 
+                return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+            }
+ 
+            function isFullyVisible(el) {
+                var elementBoundary = el.getBoundingClientRect();
+ 
+                var top = elementBoundary.top;
+                var bottom = elementBoundary.bottom;
+ 
+                return ((top >= 0) && (bottom <= window.innerHeight));
+            }
+
+        </script>
+    </head>
+    <body>
+        <header class="main-pic"><a name="home"></a><!--the main picture-->
+            <div>
+                <img class="white-logo" src="img\white_logo.png" alt="Konstruct`s white logo">
+            </div>
+            <h1>PARTNER WITH KONSTUCT</h1>
+            <p class="small-center">An award-winning construction management firm</p>
+            <a class="scroll-down" href="#navbar">SCROLL DOWN</a>
+        </header>
+
+        <nav class="navbar"><a name="navbar"></a><!--navbar-->
+            <div>
+                <img class="black-logo" src="img\black_logo.png" alt="Konstruct`s black logo">
+            </div>
+            <ul>
+                <li class="home-butt"><a href="#home">HOME</a></li>
+                <li class="about-butt"><a href="#about">ABOUT</a></li>
+                <li class="serv-butt"><a href="#services">SERVICES</a></li>
+                <li class="work-butt"><a href="#work">WORK</a></li>
+                <li class="contact-butt"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <section class="block-about"><a name="about"></a><!--our story-->
+            <h3 class="our-story-text">OUR STORY</h3>
+            <p class="big-about">Founded in 2011 by John Mathew Smith, Konstruct has become the number one construction management firm</p>
+            <p class="small-about">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+            <div  class="about-imgs">
+                <img class="about-img" src="img\about1.PNG" alt = "We plan">
+                <img class="about-img" src="img\about2.PNG" alt = "We manage">
+                <img class="about-img" src="img\about3.PNG" alt = "We build">
+            </div>
+        </section>
+
+        <section class="block-capab" id="block-capab"><a name="services"></a><!--our capabilities-->
+                <h4 class="capab-text">OUR CAPABILITIES</h4>
+                <p class="capab-small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                <button value="Click" onmousedown="viewServs()" class="capab-butt">ALL SERVICES</button>
+                <div class="services">
+                    <div class="service1" id="servs1">
+                        <img class="serv-img" src="img\serv1.PNG" alt = "" >
+                        <p class="serv-big-text">PROJECT AND CONSTRUCTION MANAGEMENT</p>
+                        <p class="serv-small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                    <div class="service2" id="servs2">
+                        <img class="serv-img" src="img\serv2.PNG" alt = "" >
+                        <p class="serv-big-text">STRUCTURE AUDIT AND MAINTENANCE</p>
+                        <p class="serv-small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                    <div class="service3" id="servs3">
+                        <img class="serv-img" src="img\serv3.PNG" alt = "" >
+                        <p class="serv-big-text">FACTORY CONSTRUCTION AND MODELING</p>
+                        <p class="serv-small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                    
+                    <div class="service1" id="servs4">
+                        <img class="serv-img" src="img\serv1.PNG" alt = "" >
+                        <p class="serv-big-text">PROJECT AND CONSTRUCTION MANAGEMENT</p>
+                        <p class="serv-small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                    <div class="service2" id="servs5">
+                        <img class="serv-img" src="img\serv2.PNG" alt = "" >
+                        <p class="serv-big-text">STRUCTURE AUDIT AND MAINTENANCE</p>
+                        <p class="serv-small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                    <div class="service3" id="servs6">
+                        <img class="serv-img" src="img\serv3.PNG" alt = "" >
+                        <p class="serv-big-text">FACTORY CONSTRUCTION AND MODELING</p>
+                        <p class="serv-small-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="block-touch"><a name="work"></a><!--get in touch-->
+            <p class="touch-text">Want to build something amazing?</p>
+            <button class="touch-butt">GET IN TOUCH</button>
+        </section>
+
+        <section class="block-letter"><a name="contact"></a><!--newsletter-->
+            <div class="letter-content">
+                <form>
+                    <p class="letter-text">Newsletter Signup</p>
+                    <input type="email" class="letter-mail" placeholder="test@youremail.com">
+                    <input type="submit" class="letter-butt" value="SIGNUP">
+                </form>
+            </div>
+        </section>
+
+        <footer><!--some inform, links and contacts-->
+            <div class="footer-inform">
+                <div class="footer-company">
+                <p class="footer-company-main-text">COMPANY</p>
+                <p class="footer-company-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="footer-links">
+                    <p class="footer-company-main-text">LINKS</p>
+                    <ul class="footer-ul1">
+                        <li ><a href="#home">HOME</a></li>
+                        <li ><a href="#about">ABOUT</a></li>
+                        <li ><a href="#services">SERVICES</a></li>
+                        <li ><a href="#work">WORK</a></li>
+                        <li ><a href="#">PROJECTS</a></li>
+                        <li ><a href="#contact">CONTACT US</a></li>
+                    </ul>
+                    <ul class="footer-ul2">
+                        <li ><a href="#">FAQ</a></li>
+                        <li ><a href="#">TERMS</a></li>
+                        <li ><a href="#">CAREERS</a></li>
+                    </ul>
+                    <ul class="footer-ul3">
+                        <li ><a href="#">BLOG</a></li>
+                        <li ><a href="#">PARTNERS</a></li>
+                        <li ><a href="#">NEWS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p class="footer-company-main-text">CONTACT US</p>
+                    <p class="footer-contact-text">213 Baker Street <br />Oriel City Kounty<br />7000 KNW, <br />Kountry Name <br /> <br />+23 994 233 4022<br /> <br />info@konstruct.com</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/"><img class="social1" src="img\social1.PNG" alt="facebook"></a>
+                    <a href="https://twitter.com/"><img class="social2" src="img\social2.PNG" alt="twitter"></a>
+                    <a href="https://www.google.com.ua/"><img class="social3" src="img\social3.PNG" alt="google"></a>
+                </div>
+            </div>
+            <div class="footer-end">
+                <p class="footer-end-text">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+            </div>
+        </footer>
+    </body>
+</html>
